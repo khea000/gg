@@ -1,0 +1,80 @@
+body {
+  background: #d9d9d9;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.05);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background: linear-gradient(145deg, #000000, #686868);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 55px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+.buttons button:hover {
+  background: linear-gradient(145deg, #000000, #d8d8d8);
+}
+
+.buttons button:active {
+  transform: scale(0.95);
+}
+
+.hasil-box {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.hasil-box span {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: bold;
+}
