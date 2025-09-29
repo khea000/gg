@@ -16,4 +16,3 @@ function hitung(operator) {
 
   document.getElementById('hasil').textContent = hasil;
 }
-
